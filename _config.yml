@@ -1,4 +1,4 @@
 name: Erik Schwartz
 permalink: /slug/
-paginate: 5
+paginate: 1
 exclude: [Gemfile, Gemfile.lock, Rakefile]
