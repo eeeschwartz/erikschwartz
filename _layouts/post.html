@@ -1,27 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 {% include _head.html %}
-<body class="single-post group">
-
+<body>
   {% include _header.html %}
-  {% include _post_carousel.html %}
+  {% include _tagline.html %}
 
-  <section class="main-page container">
-    <div class="grid">
-      <div class="three-of-four unit">
-        <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
-          <p class="time">
-            By: {{ page.author }} |
-            <time datetime="{{ page.date }}">{{ page.date | date_to_string }}</time>
-          </p>
-        {{ content }}
-      </div>
-      <div class="one-of-four unit">
-        {% include _sidebar.html %}
-      </div>
-    </div>
-  </section>
-
+  {% assign post = page %}
+  {% assign post_content = content %}
+  {% include _post.html %}
   {% include _footer.html %}
 </body>
 </html>
