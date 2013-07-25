@@ -1,19 +1,48 @@
-<div class="thumbnail">
-<div class="container-img interior-img">
-  <div class="grid-img">
-    <a href="{{ post.url }}">
-      <img class="unit-img span-grid" src="{{ post.featured_img }}"
-        alt="{{ post.featured_alt }}">
-    </a>
-  </div>
-</div>
+<!-- <div class="thumbnail"> -->
+<!-- <div class="container-img interior-img"> -->
+<!--   <div class="grid-img"> -->
+<!--     <a href="{{ post.url }}"> -->
+<!--       <img class="unit-img span-grid" src="{{ post.featured_img }}" -->
+<!--         alt="{{ post.featured_alt }}"> -->
+<!--     </a> -->
+<!--   </div> -->
+<!-- </div> -->
+<!--  -->
+<!-- <h2><a href="{{ post.url }}">{{ post.title }}</a></h2> -->
+<!--  -->
+<!--   <p class="time">By: {{ post.author }} | -->
+<!--   <time datetime="{{ post.date }}">{{ post.date | date_to_string }}</time></p> -->
+<!--  -->
+<!--   <p>{{ post.content | strip_html | truncatewords:60 }}</p> -->
+<!--  -->
+<!--   <a class="blog-link" href="{{ post.url }}">Read More »</a> -->
+<!-- </div> -->
 
-<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+<section class="post-thumb">
+  <aside class="post-head vine-head">
+    <div class="container">
+      <div class="grid">
+        <div class="unit three-of-five">
+          <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        </div>
+        <div class="unit one-of-five">
+            <h4 class="post-date">{{ post.date | date_to_string }}</h4>
+        </div>
+        <div class="unit one-of-five">
+            <h4 class="post-type">Category: {{ post.categories.first }}</h4>
+        </div>
+      </div>
+    </div>
+  </aside>
 
-  <p class="time">By: {{ post.author }} |
-  <time datetime="{{ post.date }}">{{ post.date | date_to_string }}</time></p>
+  <aside class="post-content">
+    <div class="container">
+      <div class="grid">
+        <div class="unit three-of-five">
+          {{ post.content }}
+        </div>
+      </div>
+    </div>
+  </aside>
+</section> <!-- post-thumb -->
 
-  <p>{{ post.content | strip_html | truncatewords:60 }}</p>
-
-  <a class="blog-link" href="{{ post.url }}">Read More »</a>
-</div>
