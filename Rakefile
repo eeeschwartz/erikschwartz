@@ -1,7 +1,7 @@
 require "jekyll"
 require "tmpdir"
 
-GITHUB_REPONAME = "smithschwartz/schwartzography"
+GITHUB_REPONAME = "eeeschwartz/erikschwartz"
 
 namespace :site do
   desc "Generate blog files"
