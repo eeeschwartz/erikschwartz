@@ -1,0 +1,5 @@
+{% for post in paginator.posts %}
+ {% include _truncated_post.html  %}
+{% endfor %}
+
+{% include _pagination.html %}

@@ -1,0 +1,4 @@
+name: Erik Schwartz
+permalink: /slug/
+paginate: 5
+exclude: [Gemfile, Gemfile.lock, Rakefile]
