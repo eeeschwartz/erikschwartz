@@ -5,10 +5,11 @@ layout: post
 permalink: resurrected-voltage-site
 title: Resurrected voltage site
 categories:
-- blog
+- projects
 ---
 
-It's been 6 years since we played our last show so I decided to flatten out the old php site and throw it up on github.
+<a href="http://eeeschwartz.github.io/voltage/"><img src="/images/voltage.png"></a>
+It's been 6 years since we played our last show so I decided to flatten out the old php site and [throw it up](http://github.com/eeeschwartz/voltage) on github.
 
 It had cutting edge javascript-keystroke navigation technology to mimic terminal-based systems. We're talking 2002 after all!
 

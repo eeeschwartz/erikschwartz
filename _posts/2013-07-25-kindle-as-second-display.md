@@ -12,6 +12,9 @@ Challenge:
 -----
 The life of a digital nomad/dork wanderer is great in every conceivable way* except that it places limits on your screen real estate. When you have an office/apartment you can set up 2-3 flat panel displays and a monochrome crt news-ticker for the sake of conversation. Not the case when you live out of a couple of carry-ons (schwartography).
 
+
+<img src="/images/kindle.jpg">
+
 With my latest test-driven development workflow I love being able to fire tests off to a second display without having to leave the editor. It makes me feel like a magician and it just so happens to boost my productivity quite a bit. Both are important, obviously, so I set off to enlist my old but wonderful kindle 3g as a secondary display.
 
 
