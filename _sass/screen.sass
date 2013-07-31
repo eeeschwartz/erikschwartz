@@ -1,0 +1,349 @@
+@import compass/reset
+@import toast
+
+//Colors
+
+//$grey: #5E5D59
+$neon-yellow: #F7FE9C
+$yellow: #FED965
+$red: #DD684D
+$blue: #507881
+$tan: #9a8170
+$grey: #86857f
+$green: #75795f
+$white: #fff
+
+html
+	background: $yellow
+
+body
+	background: $white
+
+body
+	font-family: 'Lato', sans-serif
+
+.title, nav, .post-title
+	font-family: 'Pathway Gothic One', sans-serif
+
+img
+	width: 100%
+
+iframe
+	height: 700px
+	width: 100%
+
+.logo
+	height: 90%
+	width: 90%
+
+.title
+	font-size: 177px
+	letter-spacing: 4px
+	padding-top: 100px
+
+footer
+	font-size: 90%
+
+nav
+	color: $red
+
+p
+	color: $green
+
+a
+	color: $red
+	text-decoration: none
+
+a:hover
+	color: darken( $red, 10% ) 
+	text-decoration: underline
+
+a.current-blog
+	color: $grey
+
+a.current-blog:hover
+	color: darken( $grey, 10% )
+	text-decoration: underline
+
+a.current-projects
+	color: $tan
+
+a.current-projects:hover
+	color: darken( $tan, 10% )
+	text-decoration: underline
+
+a.current-vine
+	color: $green
+
+a.current-vine:hover
+	color: darken($green, 10% )
+	text-decoration: underline
+
+a.current-about
+	color: $blue
+
+a.current-about:hover
+	color: darken($blue, 10% )
+	text-decoration: underline
+
+.title a
+	color: $neon-yellow
+
+.title a:hover
+	color: lighten($neon-yellow, 8% )
+	text-decoration: none
+
+header, footer
+	li
+		text-align: center
+
+.title
+	color: $neon-yellow
+
+header
+	background: $yellow
+
+header, footer
+	nav
+		background: $neon-yellow
+
+h2.tag-line
+	color: $grey
+	margin-bottom: 15px
+	line-height: 1
+	text-align: center
+
+h2.tag-line-border
+	margin-bottom: 40px
+
+header, footer
+	nav
+		font-size: 30px
+		font-weight: bold
+		line-height: 50px
+		text-transform: uppercase
+
+.title
+	span
+		letter-spacing: 10px
+
+.post-head
+	.container
+		height: 50px
+
+.post-head
+	h3, h4
+		color: $white
+		line-height: 50px
+		font-weight: 200
+
+.post-title
+	text-transform: capitalize
+	font-size: 30px
+
+.post-head
+	h4
+		font-weight: 300
+		text-align: center
+
+.vine-head
+	.container
+		background: $green
+
+.blog-head
+	.container
+		background: $grey
+
+.projects-head
+	.container
+		background: $tan
+
+.about-head
+	.container
+		background: $blue
+
+.post-content
+	padding: 40px 0
+
+.post-content
+	p
+		max-width: 900px
+
+.post-content
+	.container
+		background: $white
+
+footer
+	background: $yellow
+
+.footer-main
+	padding: 40px 0
+
+.social
+	height: 50px
+	width: 50px
+
+.social-btns
+	li
+		display: block
+		float: right
+		margin-left: 1%
+		text-indent: -9999px
+
+.twitter
+	background: url(../media/images/twitter.png) 0 0 no-repeat
+
+.linkedin
+	background: url(../media/images/linkedin.png) 0 0 no-repeat
+
+.github
+	background: url(../media/images/github.png) 0 0 no-repeat
+
+.social-btns
+	li:hover
+		background-position: 0 -50px
+
+//Media Queries
+
+@media screen and (max-width: 1192px)
+	.title
+		font-size: 150px
+		padding-top: 120px
+
+	.logo
+		padding-top: 30px
+
+@media screen and (max-width: 1020px)
+	.title
+		font-size: 130px
+
+@media screen and (max-width: 910px)
+	.title
+		font-size: 115px
+		padding-top: 100px
+
+@media screen and (max-width: 830px)
+	.title
+		font-size: 100px
+		letter-spacing: 2px
+		padding-top: 80px
+		span
+			letter-spacing: 4px
+
+	nav
+		li
+			font-size: 90%
+
+	h2
+		font-size: 1.3rem
+
+	.post-head h4
+		font-size: 80%
+		text-align: left
+
+	.post-head
+		.unit.one-of-five
+			margin-left: 2%
+@media screen and (max-width: 700px)
+	.title
+		font-size: 85px
+
+@media screen and (max-width: 650px)
+	.title-container
+		.unit.title-unit
+			display: inline-block
+			margin-bottom: 0
+			margin-left: 3%
+			margin-right: 4%
+			padding-bottom: 0
+			width: 60%
+		.unit.logo-unit
+			display: inline-block
+			margin-bottom: 0
+			margin-left: 3%
+			margin-top: 0
+			padding-bottom: 0
+			padding-top: 0
+			width: 30%
+
+	.logo
+		height: 80%
+		width: 80%
+		padding-top: 0
+
+
+	.title
+		font-size: 70px
+		letter-spacing: 1px
+		padding-top: 60px
+
+	header
+		nav
+			li
+				border-bottom: 1px solid $yellow
+
+	footer
+		nav
+			li
+				border-top: 1px solid $yellow
+
+	.post-head .container
+		height: 115px
+
+	.post-title
+		text-align: center
+
+	.post-head
+		h4
+			line-height: 25px
+
+	h2.tag-line-border
+		margin-bottom: 30px
+
+	.post-head h4
+		font-size: 100%
+		text-align: center
+
+	.social-btns
+		height: 50px
+		width: 155px
+		margin: auto
+
+@media screen and (max-width: 600px)
+	.title
+		font-size: 60px
+		padding-top: 60px
+
+@media screen and (max-width: 530px)
+	.title
+		font-size: 50px
+		padding-top: 50px
+
+@media screen and (max-width: 450px)
+	.title
+		font-size: 45px
+		padding-top: 45px
+
+@media screen and (max-width: 420px)
+	.title
+		font-size: 40px
+		padding-top: 40px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
