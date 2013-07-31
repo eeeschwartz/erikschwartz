@@ -3,7 +3,7 @@ author: Erik Schwartz
 date: 2013-07-25
 layout: post
 permalink: kindle-as-second-display
-title: Convert an olde-ass kindle into a second display
+title: Convert a srsly olde kindle into a second display
 categories:
 - projects
 ---
