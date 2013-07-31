@@ -479,17 +479,17 @@ footer {
 
 /* line 193, ../sass/screen.sass */
 .twitter {
-  background: url(../media/images/twitter.png) 0 0 no-repeat;
+  background: url(../images/twitter.png) 0 0 no-repeat;
 }
 
 /* line 196, ../sass/screen.sass */
 .linkedin {
-  background: url(../media/images/linkedin.png) 0 0 no-repeat;
+  background: url(../images/linkedin.png) 0 0 no-repeat;
 }
 
 /* line 199, ../sass/screen.sass */
 .github {
-  background: url(../media/images/github.png) 0 0 no-repeat;
+  background: url(../images/github.png) 0 0 no-repeat;
 }
 
 /* line 203, ../sass/screen.sass */
