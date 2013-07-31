@@ -283,6 +283,10 @@ a {
   text-decoration: none;
 }
 
+.post-title a {
+  color: inherit;
+}
+
 /* line 57, ../sass/screen.sass */
 a:hover {
   color: #cf4728;
