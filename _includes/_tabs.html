@@ -1,8 +1,8 @@
 <ul>
-  {% assign tabs = "home|about|projects|blog|vine" | split: "|" %}
+  {% assign tabs = "projects|vine|about" | split: "|" %}
   {% for tab in tabs %}
-    <li class="unit one-of-five">
-      <a href="/{% unless tab == 'home' %}{{ tab }}/{% endunless %}"
+    <li class="unit {% if tab == 'vine' %}one{% else %}two{% endif %}-of-five">
+      <a href="/{% unless tab == 'blog' %}{{ tab }}/{% endunless %}"
         {% if page.current-tab == {{tab}} %} class="current-{{tab}}" {% endif %}
       >{{tab}}</a>
     </li>
