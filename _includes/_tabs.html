@@ -1,10 +1,25 @@
 <ul>
-  {% assign tabs = "projects|vine|about" | split: "|" %}
+  {% assign tabs = "blog|projects|vine|about" | split: "|" %}
   {% for tab in tabs %}
-    <li class="unit {% if tab == 'vine' %}one{% else %}two{% endif %}-of-five">
+    <li class="unit one-of-five">
       <a href="/{% unless tab == 'blog' %}{{ tab }}/{% endunless %}"
         {% if page.current-tab == {{tab}} %} class="current-{{tab}}" {% endif %}
       >{{tab}}</a>
     </li>
   {% endfor %}
+  {% comment %}
+  <li class="unit one-of-five">
+    <ul class="social-btns">
+      <a href="https://twitter.com/eeeschwartz" title="Twitter" target="blank">
+        <li class="social twitter">Twitter</li>
+      </a>
+      <a href="https://github.com/eeeschwartz" title="GitHub" target="blank">
+        <li class="social github">Github</li>
+      </a>
+      <a href="http://www.linkedin.com/in/eeeschwartz" title="LinkedIn" target="blank" class="linkedin">
+        <li class="social linkedin">LinkedIn</li>
+      </a>
+    </ul>
+  </li>
+  {% endcomment %}
 <ul>
