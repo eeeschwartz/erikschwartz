@@ -8,7 +8,7 @@ categories:
 - projects
 ---
 
-tldr; introducing [ducktail](http://github.com/eeeschwartz/ducktail)!
+tl;dr: introducing [ducktail](http://github.com/eeeschwartz/ducktail)!
 
 Challenge:
 -----
