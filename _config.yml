@@ -14,6 +14,15 @@ prose:
         field:
           element: "hidden"
           value: "post"
+      - name: "date"
+        field:
+          element: "text"
+      - name: "permalink"
+        field:
+          element: "text"
+      - name: "Title"
+        field:
+          element: "text"
       - name: "category"
         field:
           element: "select"
@@ -34,3 +43,11 @@ prose:
               value: "projects"
             - name: "vine"
               value: "vine"
+      - name: "author"
+        field:
+          element: "select"
+          label: "Author"
+          placeholder: "Author"
+          options:
+            - name: "Erik Schwartz"
+              value: "Erik Schwartz"
