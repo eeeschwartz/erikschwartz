@@ -1,6 +1,26 @@
 name: Erik Schwartz
-description: Erik Schwartz's blog, projects, and vine
+description: "Erik Schwartz's blog, projects, and vine"
 url: http://erikschwartz.net
 permalink: /slug/
 paginate: 10
-exclude: [Gemfile, Gemfile.lock, Rakefile]
+exclude: [Gemfile, Gemfile.lock, Rakefile, config.rb, CNAME]
+prose:
+  rooturl: "_posts"
+  siteurl: "http://erikschwartz.net/"
+  media: "images"
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "category"
+        field:
+          element: "multiselect"
+          label: "Category"
+          placeholder: "Category"
+          options:
+            - name: "projects"
+              value: "projects"
+            - name: "vine"
+              value: "vine"
