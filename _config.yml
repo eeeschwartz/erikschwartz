@@ -16,7 +16,7 @@ prose:
           value: "post"
       - name: "category"
         field:
-          element: "multiselect"
+          element: "select"
           label: "Category"
           placeholder: "Category"
           options:
