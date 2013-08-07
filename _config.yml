@@ -24,3 +24,13 @@ prose:
               value: "projects"
             - name: "vine"
               value: "vine"
+      - name: "current-tab"
+        field:
+          element: "select"
+          label: "Current Tab"
+          placeholder: "Current Tab"
+          options:
+            - name: "projects"
+              value: "projects"
+            - name: "vine"
+              value: "vine"
