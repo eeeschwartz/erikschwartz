@@ -23,11 +23,14 @@ body
   font-family: 'Lato', sans-serif
   color: $green
 
-.title, nav, .post-title
+.title, nav, .post-title, h3
   font-family: 'Pathway Gothic One', sans-serif
 
 img
   width: 100%
+
+p
+  margin-bottom: 1rem
 
 iframe
   height: 700px
@@ -127,7 +130,7 @@ header, footer
 
 .post-head
   .container
-    height: 50px
+
 
 .post-head
   h3, h4
@@ -135,6 +138,7 @@ header, footer
     line-height: 50px
     font-weight: 200
 
+h3,
 .post-title
   text-transform: capitalize
   font-size: 30px
@@ -203,6 +207,23 @@ footer
   li:hover
     background-position: 0 -50px
 
+.about-img
+  float: left
+  margin-right: 1.5rem
+  height: 250px
+  width: 250px
+
+.post-type
+  text-transform: capitalize
+
+ul.about-list
+  list-style: disc
+  list-style-position: outside
+  li
+    display: list-item
+    padding-bottom: 1rem
+    margin-left: 1.5rem
+
 //Media Queries
 
 @media screen and (max-width: 1192px)
@@ -216,6 +237,10 @@ footer
 @media screen and (max-width: 1020px)
   .title
     font-size: 130px
+
+  .three-of-five
+    .post-span
+      width: 100%
 
 @media screen and (max-width: 910px)
   .title
@@ -244,6 +269,11 @@ footer
   .post-head
     .unit.one-of-five
       margin-left: 2%
+
+  .about-img
+    float: none
+    margin-bottom: 1rem
+
 @media screen and (max-width: 700px)
   .title
     font-size: 85px
@@ -291,11 +321,20 @@ footer
     height: 115px
 
   .post-title
+    font-size: 28px
     text-align: center
 
   .post-head
     h4
-      line-height: 25px
+      line-height: 18px
+
+  .post-head
+    h3
+      padding-top: 5px
+      line-height: 32px
+
+  .post-date
+    margin-top: 5px
 
   h2.tag-line-border
     margin-bottom: 30px
