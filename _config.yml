@@ -18,14 +18,17 @@ prose:
         field:
           element: "text"
           placeholder: "date"
+          label: "title"
       - name: "permalink"
         field:
           element: "text"
           placeholder: "permalink"
+          label: "permalink"
       - name: "Title"
         field:
           element: "text"
           placeholder: "title"
+          label: "title"
       - name: "category"
         field:
           element: "select"
