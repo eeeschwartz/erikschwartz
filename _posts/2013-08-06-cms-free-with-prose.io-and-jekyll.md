@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 category: blog
 "current-tab": blog
 author: Erik Schwartz
