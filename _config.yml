@@ -39,6 +39,8 @@ prose:
               value: "projects"
             - name: "vine"
               value: "vine"
+            - name: "blog"
+              value: "blog"
       - name: "current-tab"
         field:
           element: "select"
@@ -49,6 +51,8 @@ prose:
               value: "projects"
             - name: "vine"
               value: "vine"
+            - name: "blog"
+              value: "blog"
       - name: "author"
         field:
           element: "select"
