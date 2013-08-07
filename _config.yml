@@ -18,7 +18,7 @@ prose:
         field:
           element: "text"
           placeholder: "date"
-          label: "title"
+          label: "date"
       - name: "permalink"
         field:
           element: "text"
