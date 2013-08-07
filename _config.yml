@@ -17,12 +17,15 @@ prose:
       - name: "date"
         field:
           element: "text"
+          placeholder: "date"
       - name: "permalink"
         field:
           element: "text"
+          placeholder: "permalink"
       - name: "Title"
         field:
           element: "text"
+          placeholder: "title"
       - name: "category"
         field:
           element: "select"
