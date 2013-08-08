@@ -1,5 +1,5 @@
 _site/*
 _templates/*
-.sass-cache/*
+_sass/.sass-cache/*
 .DS_Store
 .DS_Store
