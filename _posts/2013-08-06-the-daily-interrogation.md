@@ -40,4 +40,4 @@ Under the hood:
 - The app creates a jekyll-formatted post and commits it to the blog repo
 - The app deploys the blog changes to github pages and "hello world"
 
-I've put together a proof of concept and will be posting the results here. Please feel free to run with [the project](https://github.com/eeeschwartz/interrogatorrr) on github. Contributions welcome.
+I've put together a proof of concept and will be posting the resulting interrogations here. Please feel free to run with [the project](https://github.com/eeeschwartz/interrogatorrr) on github. Contributions welcome.
