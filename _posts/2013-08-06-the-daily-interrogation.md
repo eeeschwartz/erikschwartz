@@ -6,6 +6,48 @@ author: Erik Schwartz
 permalink: introducing-interrogatorr
 ---
 
+<link rel="stylesheet" type="text/css" href="/javascripts/soundmanager/demo/360-player/360player.css" />
+<!-- special IE-only canvas fix -->
+<!--[if IE]><script type="text/javascript" src="/javascripts/soundmanager/demo/360-player/script/excanvas.js"></script><![endif]-->
+<!-- Apache-licensed animation library -->
+<script type="text/javascript" src="/javascripts/soundmanager/demo/360-player/script/berniecode-animator.js"></script>
+<script type="text/javascript" src="/javascripts/soundmanager/script/soundmanager2.js"></script>
+<script type="text/javascript" src="/javascripts/soundmanager/demo/360-player/script/360player.js"></script>
+
+<style>
+.ui360,
+.sm2-360ui {
+  /* size of the container for the circle, etc. */
+  width:50px;
+  height:50px;
+}
+</style>
+
+<script>
+soundManager.setup({
+  url: '/javascripts/soundmanager/swf/',
+  flashVersion: 9, // optional: shiny features (default = 8)
+  // optional: ignore Flash where possible, use 100% HTML5 mode
+  // preferFlash: false,
+  onready: function() {
+    // Ready to use; soundManager.createSound() etc. can now be called.
+  }
+});
+threeSixtyPlayer.config = {
+  playNext: false, // stop after one sound, or play through list until end
+  autoPlay: false, // start playing the first sound right away
+  allowMultiple: true, // let many sounds play at once (false = one at a time)
+  loadRingColor: '#ccc', // amount of sound which has loaded
+  playRingColor: '#000', // amount of sound which has played
+  backgroundRingColor: '#eee', // "default" color shown underneath everything else
+  animDuration: 500,
+  animTransition: Animator.tx.bouncy // http://www.berniecode.com/writing/animator.html
+}
+</script>
+<div class="ui360">
+ <a href="/novacane.mp3">play "novacane"</a>
+</div>
+
 It's not as bad as it sounds.
 
 ### Challenge
