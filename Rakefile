@@ -10,7 +10,6 @@ namespace :site do
       "source"      => ".",
       "destination" => "_site"
     })).process
-    system "compass compile"
   end
 
 
