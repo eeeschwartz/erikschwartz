@@ -20,7 +20,9 @@ You receive a phone call. A friendly robot asks you an open ended question:
 
 Your 1 minute answer is transcribed and published to your blog.
 
-<audio src="/twilio-recording.mp3" controls="controls">
+<audio controls="controls">
+  <source src="/twilio-recording.ogg" type="audio/ogg"></source>
+  <source src="/twilio-recording.mp3" type="audio/mpeg"></source>
 </audio>
 \[... transcription would live here ...\]
 
