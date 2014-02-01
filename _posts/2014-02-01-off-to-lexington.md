@@ -8,7 +8,7 @@ permalink: "off-to-lexington"
 ---
 
 ### A Great Start to the Fellowship
-The first month of [Code for America](http://codeforamerica.org) training was a total blast. My cohort is a great group with all kinds of perspective on the challenge of improving the connection of people with their government. I’ve learned a lot from my new colleagues, among them astronaut interface designers, ex-Googlers, researchers, circus performers, powerful developers and sharp designers. 
+The first month of [Code for America](http://codeforamerica.org) training was a total blast. My cohort is a great group with all kinds of perspective on the challenge of improving the connection of people with their government. I’ve learned a lot from my new colleagues, among them astronaut interface designers, ex-Googlers, researchers, map-makers, circus performers, powerful developers and sharp designers. 
 
 The month of training itself was challenging in all of the right ways. We talked with luminaries like Tim O’Reilly, Jen Pahlka, Aneesh Chopra, Eric Ries, Steve Van Roekel, and many more. We did hands on negotiation training. Focused on good team dynamics. Learned the nuts and bolts of local gov. Worked on a small-scale hack project with SF city officials. Practiced self-organization. Great experience.
 
