@@ -2,7 +2,7 @@ name: Erik Schwartz
 description: "Erik Schwartz's blog, projects, and vine"
 url: http://erikschwartz.net
 permalink: /slug/
-paginate: 10
+paginate: 5
 exclude: [Gemfile, Gemfile.lock, Rakefile, config.rb]
 markdown: redcarpet
 
