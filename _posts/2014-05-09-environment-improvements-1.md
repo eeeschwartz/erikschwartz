@@ -4,33 +4,33 @@ category: blog
 "current-tab": blog
 author: Erik Schwartz
 date: "2014-05-09"
-permalink: "environment-improvements-1"
+permalink: "2014-05-09-environment-improvements-1"
 ---
 
 ## Environment Improvements May 2 - May 9, 2014
 As I write software I jot down minor annoyances in the development workflow or things I'd like to generally understand better. Each morning I spend 20 minutes addressing one or two problems and capture my new learnings here for posterity.
 
-##### Vim: Editing Macros
+##### [Vim: Editing Macros](#vim-editing-macros)
 
 * `C-r C-r a` inserts register `a` in command mode
 
 * `*` register is system clipboard
 
-##### Vim: make temporary key mapping to run a script you're debugging
+##### [Vim: make temporary key mapping to run a script you're debugging](#vim-make-temporary-key-mapping-to-run-a-script-youre-debugging)
 * `map <leader>r :!spring rake db:seed<cr>`
 
-##### Vim: Copy filename to system clipboard
+##### [Vim: Copy filename to system clipboard](#vim-copy-filename-to-system-clipboard)
 * `:let @* = expand("%")` [from Stack Overflow](http://stackoverflow.com/questions/916875/yank-file-name-path-of-current-buffer-in-vim)
 * To map a keystroke `:nmap cp :let @* = expand("%")`
 
-##### Vim: Ignore .keep files from ctrl-p file search
+##### [Vim: Ignore .keep files from ctrl-p file search](#vim-ignore-keep-files-from-ctrl-p-file-search)
 * `let g:ctrlp_custom_ignore = '.keep\|node_modules\|DS_Store\|git\|tmp/cache\|.swp'`
 
-##### Vim: delete text within html tag
+##### [Vim: delete text within html tag](#vim-delete-text-within-html-tag)
 
 * `dit` who knew?!
 
-##### Vim: tab refresher for easily looking at gem source code
+##### [Vim: tab refresher for easily looking at gem source code](#vim-tab-refresher-for-easily-looking-at-gem-source-code)
 
 ```
 	tabe          create new tab
@@ -39,7 +39,7 @@ As I write software I jot down minor annoyances in the development workflow or t
 	{i}gt         go to tab in position i
 ```
 
-##### Vim: [prompt](http://travisjeffery.com/b/2011/11/saving-files-in-nonexistant-directories-with-vim/) to mkdir if doesn't exist
+##### Vim: [prompt](http://travisjeffery.com/b/2011/11/saving-files-in-nonexistant-directories-with-vim/) to [mkdir if doesn't exist](#vim-mkdir-if-doesnt-exist)
 
 ```
 augroup vimrc-auto-mkdir
@@ -55,7 +55,7 @@ augroup vimrc-auto-mkdir
 augroup END
 ```
 
-##### Bash: Use cut remove leading whitespace
+##### [Bash: Use cut remove leading whitespace](#bash-use-cut-remove-leading-whitespace)
 Useful for removing extraneous stuff before piping output to another command
 
 ```
@@ -65,16 +65,16 @@ $ git branch | cut -c 3-
 foo-branch
 ```
 
-##### Bash: Movement by words (like emacs)
+##### [Bash: Movement by words (like emacs)](#bash-movement-by-words-like-emacs)
 * `M-f` forward
 * `M-b` backward
 
 
-##### deploy non-master branch to heroku (aka use standard git to push a feature branch to heroku master)
+##### [deploy non-master branch to heroku](#deploy-non-master-branch-to-heroku) (aka use standard git to push a feature branch to heroku master)
 g push heroku search-park-name:master
 
 
-##### Binstubs
+##### [Binstubs](#binstubs)
 * Prepare the environment before shelling out to an executable
 * In practice this means the script makes sure the executable runs against the project's ruby version and gemset
 

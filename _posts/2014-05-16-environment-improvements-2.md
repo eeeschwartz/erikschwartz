@@ -4,7 +4,7 @@ category: blog
 "current-tab": blog
 author: Erik Schwartz
 date: "2014-05-16"
-permalink: "environment-improvements-6"
+permalink: "2014-05-16-environment-improvements-6"
 ---
 
 
