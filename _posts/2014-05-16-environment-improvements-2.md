@@ -17,23 +17,23 @@ I'd like to search for `really_long` do something like `ciw shorter` on the firs
 Solution: use [this snippet](https://github.com/eeeschwartz/dotfiles/commit/6ef78d524627211daa00d518266c658199a115c8) to turn the search result into a text object referred to by "s". Now `cs` becomes "change selection" and is repeatable with commands like `n.` as in "Move to next result and repeat the previous command"
 
 
-##### [Firefox: show/hide bookmarks toolbar with a keystroke](#fn-infer)
+##### [Firefox: show/hide bookmarks toolbar with a keystroke](#firefox-showhide-bookmarks-toolbar-with-a-keystroke)
 * Via [an add-on](https://addons.mozilla.org/bn-BD/firefox/addon/show-hide-bookmarks-toolbar/)
 * Although I didn't install the add-on. Instead I will try the keystroke to show/hide the bookmarks sidebar `Command b`.
 
-##### [Firefox: search page with regex](#fn-infer)
+##### [Firefox: search page with regex](#firefox-search-page-with-regex)
 * [Fastest Search Add-on](https://addons.mozilla.org/en-US/firefox/addon/fastest-search/)
 * I'm a little wary of willy-nilly installing add-ons so I'm going to punt on this for now.
 
 
-##### [Git: search on any branch](#fn-infer)
+##### [Git: search on any branch](#git-search-on-any-branch)
 * As seen on [Stack Overflow](http://stackoverflow.com/a/15293283) `git grep <regexp> $(git rev-list --all)`
 
-##### [Markdown: anchor to each of these headings](#fn-infer) :)
-* As seen on [SO](http://stackoverflow.com/a/7335259), it's [Pretty simple](#pretty-simple)
+##### [Markdown: anchor to each of these headings](#markdown-anchor-to-each-of-these-headings) :)
+* As seen on [SO](http://stackoverflow.com/a/7335259), it's [pretty simple](#pretty-simple)
 
 ##### [Markdown: infer the anchor name](#markdown-infer-the-anchor-name)
-* For each of these topic I'd like custom anchor like so `[Vim: do something faster](#vim-do-something-faster)`. 
-* The anchor is based on the link body so I want to be able to create the the anchor by writing this: `[Vim: do something interesting](#fn-infer-anchor)`
-* Then I preprocess the file with a simple script.
+* For each of these topics I'd like a unique anchor such as `[Vim: do something faster](#vim-do-something-faster)`. 
+* The anchor is based on the link body so I want to be able to create the the anchor by writing this: `[Vim: do something interesting](#fn-infer)`
+* * Then I preprocess the markdown file with a simple script.
 * <script src="https://gist.github.com/eeeschwartz/23b87ee34bc5a5d40920.js"></script>
