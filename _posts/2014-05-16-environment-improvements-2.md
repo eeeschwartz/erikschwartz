@@ -1,3 +1,13 @@
+---
+layout: post
+category: blog
+"current-tab": blog
+author: Erik Schwartz
+date: "2014-05-16"
+permalink: "environment-improvements-6"
+---
+
+
 ##### [Vim: change in search](#vim-change-in-search)
 
 I often want to perform a search on a phrase that does not conform to word boundaries, change the matched text and repeat over a buffer. 
