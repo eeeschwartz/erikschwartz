@@ -4,6 +4,7 @@ category: blog
 "current-tab": blog
 author: Erik Schwartz
 date: "2014-05-23"
+published: false
 permalink: "2014-05-23-environment-improvements-3"
 ---
 
