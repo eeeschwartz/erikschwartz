@@ -225,14 +225,26 @@ code
   text-align: center
   margin-bottom: .5em
 
-ul.about-list
-  list-style: disc
-  list-style-position: outside
-  li
-    display: list-item
-    padding-bottom: 1rem
-    margin-left: 1.5rem
-
+.post-content
+  ul
+    list-style: disc
+    list-style-position: outside
+    li
+      display: list-item
+      //padding-bottom: .5rem
+      margin-left: 1.5rem
+      p 
+        margin: 0
+        padding: 0
+      ul
+        list-style-type: circle
+        margin-bottom: 0
+        li 
+          margin-bottom: 0
+          ul
+            list-style-type: square
+            margin-bottom: 0
+  
 @-moz-document url-prefix()
   .title
     font-size: 160px
