@@ -22,7 +22,7 @@ end
 
 Let's change `really_long_var_name` to `shorter_var_name`
 
-I'd like to search for `really_long` do something like `ciw shorter` on the first result and then hit `n.` to repeat the action on future matches. Unfortunately `ciw` doesn't work because `w` captures the entire `really_long_var_name` rather than just the part we want to change. The most obvious solution is a bit cumbersome: `:s/really_long/shorter/gc`. Let's see about writing a vimscript for `cir` (or maybe &?) or `change in result`. 
+I'd like to search for `really_long`, do something like `ciw shorter` on the first result, and then hit `n.` to repeat the action on future matches. Unfortunately `ciw` doesn't work because `w` captures the entire `really_long_var_name` rather than just the part we want to change. The most obvious solution is a bit cumbersome: `:s/really_long/shorter/gc`. Let's see about writing a vimscript for `cir` (or maybe &?) or `change in result`. 
 
 Solution: use [this snippet](https://github.com/eeeschwartz/dotfiles/commit/6ef78d524627211daa00d518266c658199a115c8) to turn the search result into a text object referred to by "s". Now `cs` becomes "change selection" and is repeatable with commands like `n.` as in "Move to next result and repeat the previous command"
 
