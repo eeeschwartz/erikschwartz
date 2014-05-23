@@ -71,7 +71,8 @@ Add `&kimbypage=1` to the query string
  => "\u0001"
  ```
 
- ##### Markdown: fix the <a name="foo"></a> [foo]({{page.url}}#foo) behavior
+##### Markdown: <a name="fix-the-fragment-fn-infer-behavior"></a> [fix the fragment fn-infer behavior]({{page.url}}#fix-the-fragment-fn-infer-behavior)
+
  * Now it drops in a named link:
  `<a name="do-some-cool-thing"></a> [do some cool thing]({{page.url}}#do-some-cool-thing) => <a name="do-some-cool-thing"></a>[do some cool thing](#do-some-cool-thing)`
  * It's borderline unreadable as markdown syntax but hey, what can you do?
