@@ -40,3 +40,35 @@ permalink: "2014-05-23-environment-improvements-3"
 * `echo 'this is a new new thing' | sed 's/^this //'` => "is a new new thing"
 *  `echo 'this is a new new thing' | sed 's/.\{5\}//'` => "is a new new thing"
 *  `echo '     remove leading whitespace' | sed 's/[ \t]*//'` => "remove leading whitespace"
+
+
+##### Kimono:retrieving crawled pages with the source url included
+Add `&kimbypage=1` to the query string
+
+```
+"results": [
+    {
+      "page": 1,
+      "url": "http://www.lexpublib.org/event/friends-of-library-booksale-uk-chandler-medical-center",
+      "collection1": [
+        {
+          "title": "Friends of the Library Booksale: UK Chandler Medical Center",
+          "venue": "Other Location",
+          "access_notes": "See Description",
+          "description": "Friends of the Library will be have books for sale at the UK Chandler Medical Center.",
+          "start_time": "Wednesday, May 21st - 8:00 AM"
+        }
+      ]
+    },
+```
+
+##### Ruby: regex capture syntax
+```
+1.9.3-p484 :002 > 'xxfindmexx'.gsub(/xx(findme)xx/, '\1')
+ => "findme"
+# note that double quotes around \1 interprets it as a unicode escape
+1.9.3-p484 :003 > 'xxfindmexx'.gsub(/xx(findme)xx/, "\1")
+ => "\u0001"
+ ```
+
+##### Add id for page fragments for fn-infer
