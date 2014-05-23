@@ -8,7 +8,7 @@ published: true
 permalink: "2014-05-23-environment-improvements-3"
 ---
 
-##### Bash: sort ruby files by number of lines (ascending)
+##### Bash: <a name="sort-ruby-files-by-number-of-lines"></a> [sort ruby files by number of lines]({{page.url}}#sort-ruby-files-by-number-of-lines) (ascending)
 * `find . -name '*.rb' -exec wc -l {} \; | sort`
 * I used this to find a few hotspots in calagator
 
@@ -23,26 +23,26 @@ permalink: "2014-05-23-environment-improvements-3"
      982 ./spec/models/event_spec.rb
 ```
 
-##### Heroku: backup postgres
+##### Heroku: <a name="backup-postgres"></a> [backup postgres]({{page.url}}#backup-postgres)
 * `heroku addons:add pgbackups:auto-month`
 * `heroku pgbackups:capture` # backup right now!
 * `heroku pgbackups` # show the backups
 * load to local env ``curl -o latest.sql `heroku pgbackups:url``
 * `pg_restore --verbose --clean --no-acl --no-owner -h localhost -U myuser -d mydb latest.dump` (via [heroku](https://devcenter.heroku.com/articles/heroku-postgres-import-export))
 
-##### Bash: save command you've typed without running it
+##### Bash: <a name="save-command-youve-typed-without-running-it"></a> [save command you've typed without running it]({{page.url}}#save-command-youve-typed-without-running-it)
 * `Ctrl`+`a` to jump to beginning of line and comment it out :) `$ #echo 'this is a command for later'`
 
-##### Zsh: save command you've typed without running it
+##### Zsh: <a name="save-command-youve-typed-without-running-it"></a> [save command you've typed without running it]({{page.url}}#save-command-youve-typed-without-running-it)
 * "`Ctrl`+`Y` [will paste](http://unix.stackexchange.com/a/74187) the last item you cut (with `Ctrl`+`U`, `Ctrl`+`K`, `Ctrl`+`W`, etc.)"
 
-##### Sed: remove leading chars
+##### Sed: <a name="remove-leading-chars"></a> [remove leading chars]({{page.url}}#remove-leading-chars)
 * `echo 'this is a new new thing' | sed 's/^this //'` => "is a new new thing"
 *  `echo 'this is a new new thing' | sed 's/.\{5\}//'` => "is a new new thing"
 *  `echo '     remove leading whitespace' | sed 's/[ \t]*//'` => "remove leading whitespace"
 
 
-##### Kimono:retrieving crawled pages with the source url included
+##### Kimono: <a name="retrieving-crawled-pages-with-the-source-url-included"></a> [retrieving crawled pages with the source url included]({{page.url}}#retrieving-crawled-pages-with-the-source-url-included)
 Add `&kimbypage=1` to the query string
 
 ```
@@ -62,7 +62,7 @@ Add `&kimbypage=1` to the query string
     },
 ```
 
-##### Ruby: regex capture syntax
+##### Ruby: <a name="regex-capture-syntax"></a> [regex capture syntax]({{page.url}}#regex-capture-syntax)
 ```
 1.9.3-p484 :002 > 'xxfindmexx'.gsub(/xx(findme)xx/, '\1')
  => "findme"
@@ -70,3 +70,8 @@ Add `&kimbypage=1` to the query string
 1.9.3-p484 :003 > 'xxfindmexx'.gsub(/xx(findme)xx/, "\1")
  => "\u0001"
  ```
+
+ ##### Markdown: fix the <a name="foo"></a> [foo]({{page.url}}#foo) behavior
+ * Now it drops in a named link:
+ `<a name="do-some-cool-thing"></a> [do some cool thing]({{page.url}}#do-some-cool-thing) => <a name="do-some-cool-thing"></a>[do some cool thing](#do-some-cool-thing)`
+ * It's borderline unreadable as markdown syntax but hey, what can you do?
