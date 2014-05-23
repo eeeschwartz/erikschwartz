@@ -4,7 +4,7 @@ category: blog
 "current-tab": blog
 author: Erik Schwartz
 date: "2014-05-23"
-published: false
+published: true
 permalink: "2014-05-23-environment-improvements-3"
 ---
 
@@ -70,5 +70,3 @@ Add `&kimbypage=1` to the query string
 1.9.3-p484 :003 > 'xxfindmexx'.gsub(/xx(findme)xx/, "\1")
  => "\u0001"
  ```
-
-##### Add id for page fragments for fn-infer
