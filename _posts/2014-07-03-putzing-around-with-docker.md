@@ -3,7 +3,6 @@ layout: post
 category: blog
 "current-tab": blog
 author: Erik Schwartz
-date: ""
 published: false
 permalink: ""
 ---
