@@ -1,4 +1,4 @@
-	---
+---
 layout: post
 category: blog
 "current-tab": blog
@@ -63,7 +63,7 @@ irb(main):001:0> Event.count
 
 ### Monitor health
 
-I've been getting one sms when I update a big batch of changes in my area. 
+I've been getting one sms when I update a big batch of changes in my area.
 Is the app just sending the first purposefully?
 
 ### Set up Twilio number

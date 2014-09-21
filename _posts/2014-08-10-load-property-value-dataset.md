@@ -1,4 +1,4 @@
-	---
+---
 layout: post
 category: blog
 "current-tab": blog
