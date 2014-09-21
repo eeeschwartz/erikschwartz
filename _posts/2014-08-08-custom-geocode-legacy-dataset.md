@@ -4,7 +4,7 @@ category: blog
 "current-tab": blog
 author: Erik Schwartz
 published: true
-permalink: ""
+permalink: "2014-08-08-custom-geocode-legacy-dataset"
 ---
 
 ```

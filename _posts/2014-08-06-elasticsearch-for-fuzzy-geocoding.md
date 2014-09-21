@@ -3,9 +3,9 @@ layout: post
 category: blog
 "current-tab": blog
 author: Erik Schwartz
-date: "2014-07-31"
+date: "2014-08-06"
 published: true
-permalink: ""
+permalink: "2014-08-06-elasticsearch-for-fuzzy-geocoding"
 ---
 
 ```

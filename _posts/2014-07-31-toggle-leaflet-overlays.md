@@ -4,7 +4,7 @@ category: blog
 "current-tab": blog
 author: Erik Schwartz
 date: "2014-07-31"
-published: true
+published: false
 permalink: ""
 ---
 

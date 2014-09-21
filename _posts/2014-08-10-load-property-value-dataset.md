@@ -3,7 +3,7 @@ layout: post
 category: blog
 "current-tab": blog
 author: Erik Schwartz
-published: true
+published: false
 permalink: ""
 ---
 
@@ -74,13 +74,13 @@ alter table parcels add column voting_precinct_id INT;
 update parcels AS p  set voting_precinct_id = v.gid from votingprecinct AS v  WHERE (st_contains(v.geom, p.geom));
 ```
 
-### 
+###
 ```
 geocode_code_enforcement=# select count(*) from property_values ;
  count
 --------
  438707
- 
+
 geocode_code_enforcement=# \d property_values
           Table "public.property_values"
     Column     |         Type         | Modifiers
