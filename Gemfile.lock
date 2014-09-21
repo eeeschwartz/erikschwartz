@@ -35,6 +35,7 @@ GEM
     pygments.rb (0.5.2)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
+    redcarpet (3.1.1)
     safe_yaml (0.7.1)
     sass (3.2.10)
     subexec (0.2.3)
@@ -48,3 +49,4 @@ DEPENDENCIES
   compass
   jekyll
   mini_magick
+  redcarpet
