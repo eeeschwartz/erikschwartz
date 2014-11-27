@@ -1,0 +1,17 @@
+# I'm unable to get jekyll to serve to boot2docker
+# so I use jekyll to build and python -m SimpleHTTPServer to serve locally
+#
+# $ docker ps
+# CONTAINER ID        IMAGE                     COMMAND             CREATED             STATUS              PORTS                    NAMES
+# 42f431f89070        erikschwartz_web:latest   "jekyll serve"      10 seconds ago      Up 8 seconds        0.0.0.0:4000->4000/tcp   erikschwartz_web_1
+#
+# $ curl localhost:4000
+# curl: (56) Recv failure: Connection reset by peer
+#
+web:
+  build: .
+  command: jekyll serve
+  volumes:
+    - .:/myapp
+  # ports:
+  #   - "4000:4000"
