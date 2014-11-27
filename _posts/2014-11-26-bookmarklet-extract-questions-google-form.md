@@ -6,6 +6,7 @@ author: Erik Schwartz
 published: true
 date: 2014-11-26
 permalink: "2014-11-26-bookmarklet-extract-questions-google-doc"
+title: A Bookmarklet to extract questions from a google form
 ---
 
 Generally speaking I prefer to write Google Forms outside of the browser, usually in Evernote. The writing is stored automatically and is availble across devices. I also find that I concentrate better outside of the form. Sometimes the questions require some real chin scratching and I find that the Google Forms interface lends itself to rush. I just want to take it [nice and slow](https://www.youtube.com/watch?v=RQeZZnwmuMo) like Usher.
