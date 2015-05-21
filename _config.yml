@@ -5,4 +5,3 @@ permalink: /slug/
 paginate: 5
 exclude: [Gemfile, Gemfile.lock, Rakefile, config.rb]
 markdown: redcarpet
-
