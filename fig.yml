@@ -1,6 +1,6 @@
 web:
   build: .
-  command: jekyll serve --host 0.0.0.0
+  command: jekyll serve --host 0.0.0.0 --force_polling
   volumes:
     - .:/myapp
   ports:
