@@ -7,6 +7,8 @@ published: false
 permalink: ""
 ---
 
+### [update] [Newer installation instructions](https://github.com/lfucg/lexington-pentaho-etl)
+
 ### Set up machine
 
 ```
