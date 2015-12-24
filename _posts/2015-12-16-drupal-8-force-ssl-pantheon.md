@@ -9,7 +9,7 @@ permalink: "2015-12-16-drupal-8-force-ssl-pantheon"
 
 ### To use SSL through the Pantheon dev workflow
 
-Put this bad boy right at the top to redirect ASAP if HTTP
+Put this bad boy right at the top to redirect ASAP if HTTP:
 
 ```php
 /sites/default/settings.php
@@ -28,3 +28,5 @@ if (isset($_SERVER['PANTHEON_ENVIRONMENT']) &&
 
 ...
 ```
+
+Also see the related [pantheon docs](https://pantheon.io/docs/articles/sites/domains/adding-a-ssl-certificate-for-secure-https-communication/).
