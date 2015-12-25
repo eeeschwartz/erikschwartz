@@ -21,6 +21,8 @@ point MAMP apache at pantheon-site directory
 
 cp sites/example.settings.local.php sites/default/settings.local.php
 
+Refreshing localhost yields this error:
+
 ```
 Skip to main content
 Drupal 8.0.0-rc3
@@ -66,7 +68,7 @@ hm. I’m going to update the database settings before looking deeper into a ren
 
 ...
 
-After creating the database, the error is gone. I’m taken the to Drupal install screen. In my case, I want to use the db from Pantheon.
+After creating the database, the error is gone. I’m taken to the Drupal install screen. In my case, I want to use the db from Pantheon.
 
 In phpmyadmin > import > browse to database.tar.gz downloaded from Pantheon.
 
@@ -113,6 +115,7 @@ which php
 ### Install Drush 8
 
 Error:
+
 ```
 > drush status
 Drush 7.1.0 does not support Drupal 8. You will need Drush version 8 or higher. See http://docs.drush.org/en/master/install/ for details.

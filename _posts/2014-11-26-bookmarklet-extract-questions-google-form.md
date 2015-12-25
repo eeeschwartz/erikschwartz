@@ -21,8 +21,8 @@ document.body.appendChild(jsCode);
 
 ### The unsuspecting form beforehand:
 
-![image](images/google-form.png)
+![image](/images/google-form.png)
 
 ### The fully shocked form afterwards, questions extracted big time:
 
-![image](images/google-form-extracted.png)
+![image](/images/google-form-extracted.png)

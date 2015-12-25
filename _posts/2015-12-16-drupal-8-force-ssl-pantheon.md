@@ -7,9 +7,9 @@ date: "2015-12-16"
 permalink: "2015-12-16-drupal-8-force-ssl-pantheon"
 ---
 
-### To use SSL through the Pantheon dev workflow
+### To use SSL throughout the Pantheon dev workflow
 
-Put this bad boy right at the top to redirect ASAP if HTTP:
+When using the dev-my-site.pantheon.io domain (or test or live), put this bad boy at the top of your settings. It will redirect HTTP to HTTPS.
 
 ```php
 /sites/default/settings.php

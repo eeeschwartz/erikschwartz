@@ -7,7 +7,7 @@ date: "2015-12-24"
 permalink: "2015-12-24-drupal-8-deploy-custom-block"
 ---
 
-### You can’t _exactly_ deploy a custom block in Drupal
+### Well, you can’t \_exactly\_ deploy a custom block in Drupal
 
 This is because "[a custom block is made of two entities, one for the placement and the actual content](http://drupal.stackexchange.com/a/146052/54929)".
 
