@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 category: blog
 current-tab: blog
@@ -7,13 +7,12 @@ author: Erik Schwartz
 date: '2016-06-22'
 permalink: 2016-06-23-letsencrypt-san-certificate-pantheon
 ---
-## Test 301 redirect behavior from mydomain.com to www.mydomain.com
 
-I needed to experiment with 301 redirect behavior for a site under SSL. 
+I needed to experiment with 301 redirect behavior for a site under SSL.
 
 ### The constraints
 
-- make sure redirects from https://mydomain.com aren't spoiled by certificate errors because the certificate covers 'www.mydomain.com' but not 'mydomain.com'
+- make sure redirects from https://mydomain.com aren't spoiled by certificate errors because the certificate covers `www.mydomain.com` but not `mydomain.com`
 - Here’s [the post](http://www.jasonsamuel.com/2011/03/07/how-to-properly-use-ssl-redirects-without-getting-certificate-error-messages/) that describes this problem and how to avoid it. But it’s 5 years old so I wanted to test it all out.
 - Use the Pantheon PaaS for Drupal hosting
 - Use letsencrypt to generate throw-away certificates for free
@@ -49,7 +48,7 @@ cat 0000_chain.pem
 cat www_notabigdeal_club.key
 ```
 
-### The 301 behavior 
+### The 301 behavior
 
 As expected, visiting 'https://notabigdeal.club' throws an error since the certificate is only for 'www'
 
@@ -125,6 +124,6 @@ cat notabigdeal_club.key
 
 ### Pantheon-specific note
 
-I had to enable both domains in Pantheon: www.notabigdeal.club and notabigdeal.club. Otherwise it gave a Pantheon boilerplate "Site not found" page. 
+I had to enable both domains in Pantheon: www.notabigdeal.club and notabigdeal.club. Otherwise it gave a Pantheon boilerplate "Site not found" page.
 
 The confusing part is that each domain you add on the Pantheon dashboard suggests that your DNS settings should be an "A" record pointing to the Pantheon IP. This conflicts with the Pantheon documentation where it says the root domain gets the "A" record, and the "www" subdomain gets a CNAME to "my-site.pantheonsite.io". As mentioned above, I chose the latter and it worked for me.
