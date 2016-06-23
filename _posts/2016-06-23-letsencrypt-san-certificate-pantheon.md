@@ -7,7 +7,7 @@ author: Erik Schwartz
 date: '2016-06-22'
 permalink: 2016-06-23-letsencrypt-san-certificate-pantheon
 ---
-## Test 301 redirect behavior from mydomin.com to www.mydomain.com
+## Test 301 redirect behavior from mydomain.com to www.mydomain.com
 
 I needed to experiment with 301 redirect behavior for a site under SSL. 
 
@@ -26,14 +26,16 @@ To manually generate certificates with lets encrypt, I need a public web server 
 
 The DNS is set up like so on Namecheap:
 
-`"URL redirect record" @ http://www.notabigdeal.club Unmasked`
+||||
+| --- | --- | --- | ---- |
+|URL redirect record| @ | http://www.notabigdeal.club | Unmasked |
 
 ssh to the droplet and then:
 
 ```
-openssl req -new -newkey rsa:2048 -nodes -out notabigdeal_club.csr -keyout notabigdeal_club.key -subj "/C=US/ST=Kentucky/L=Lexington/O=test/CN=notabigdeal.club"
+openssl req -new -newkey rsa:2048 -nodes -out notabigdeal_club.csr -keyout notabigdeal_club.key -subj '/C=US/ST=Kentucky/L=Lexington/O=test/CN=notabigdeal.club'
 
-./certbot-auto certonly --authenticator manual --server https://acme-v01.api.letsencrypt.org/directory --text --email erik@erikschwartz.net --csr www_notabigdeal_club.csr
+certbot-auto certonly --authenticator manual --server https://acme-v01.api.letsencrypt.org/directory --text --email erik@erikschwartz.net --csr www_notabigdeal_club.csr
 
 # Things that pantheon wants:
 
