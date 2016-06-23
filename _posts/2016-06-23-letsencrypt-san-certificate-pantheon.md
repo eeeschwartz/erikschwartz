@@ -52,7 +52,7 @@ cat www_notabigdeal_club.key
 
 As expected, visiting 'https://notabigdeal.club' throws an error since the certificate is only for 'www'
 
-## Lets try again with a Sans certificate that covers both domains
+### Lets try again with a Sans certificate that covers both domains
 
 
 Namecheap DNS settings
