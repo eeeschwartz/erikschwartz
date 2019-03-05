@@ -14,7 +14,7 @@ I needed to experiment with 301 redirect behavior for a site under SSL.
 
 - make sure redirects from https://mydomain.com aren't spoiled by certificate errors because the certificate covers `www.mydomain.com` but not `mydomain.com`
 - Here’s [the post](http://www.jasonsamuel.com/2011/03/07/how-to-properly-use-ssl-redirects-without-getting-certificate-error-messages/) that describes this problem and how to avoid it. But it’s 5 years old so I wanted to test it all out.
-- Use the Pantheon PaaS for Drupal hosting
+- Use the Pantheon PaaS
 - Use letsencrypt to generate throw-away certificates for free
 
 ### Generate a certificate
@@ -125,5 +125,3 @@ cat notabigdeal_club.key
 ### Pantheon-specific note
 
 I had to enable both domains in Pantheon: www.notabigdeal.club and notabigdeal.club. Otherwise it gave a Pantheon boilerplate "Site not found" page.
-
-The confusing part is that each domain you add on the Pantheon dashboard suggests that your DNS settings should be an "A" record pointing to the Pantheon IP. This conflicts with the Pantheon documentation where it says the root domain gets the "A" record, and the "www" subdomain gets a CNAME to "my-site.pantheonsite.io". As mentioned above, I chose the latter and it worked for me.

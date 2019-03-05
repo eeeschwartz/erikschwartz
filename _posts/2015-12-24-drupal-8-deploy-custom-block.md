@@ -5,6 +5,7 @@ category: blog
 author: Erik Schwartz
 date: "2015-12-24"
 permalink: "2015-12-24-drupal-8-deploy-custom-block"
+hidden: true
 ---
 
 ### Well, you can’t \_exactly\_ deploy a custom block in Drupal

@@ -4,7 +4,7 @@ category: blog
 "current-tab": blog
 author: Erik Schwartz
 date: "2015-12-16"
-permalink: "2015-12-16-drupal-8-force-ssl-pantheon"
+permalink: "2015-12-16-force-ssl-pantheon"
 ---
 
 ### To use SSL throughout the Pantheon dev workflow
