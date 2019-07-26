@@ -109,4 +109,6 @@ Detection and Analytics
         - Share what you've learned with community
         - Have your red team focus on techniques from you analytics: use what's real for your org
         - Use consistent naming conventions so you can communicate with your red team
-            
+        
+Other tools
+- [Caldera](https://github.com/mitre/caldera): an automated adversary emulation system
