@@ -14,7 +14,7 @@ By John Lambert, Microsoft
 
 [Traditional versus advanced defense concepts](https://youtu.be/yslLIqfOKCU?list=PLkTApXQou_8JrhtrFDfAskvMqk97Yu2S2&t=246)
 
-![Conventional Wisdom in Defense]({{site.baseurl}}/_posts/Screen%20Shot%202019-07-26%20at%2010.51.26%20AM.png)![Screen Shot 2019-07-26 at 10.51.26 AM.png]({{site.baseurl}}/_posts/Screen Shot 2019-07-26 at 10.51.26 AM.png)
+![Conventional Wisdom in Defense]({{site.baseurl}}/_posts/Screen%20Shot%202019-07-26%20at%2010.51.26%20AM.png)
 
 ### Ideas
 
@@ -37,3 +37,9 @@ By John Lambert, Microsoft
 - [Jupyter notebooks](https://jupyter.org/) hyper popular datascience toolset in python. Great way to share infosec analysis. E.g. visualize netblocks that a machine connects to.
 - [Papermill](https://github.com/nteract/papermill) parameterize and run jupyter notebooks in automated fashion 
 - [Binder](https://mybinder.org/) platform as a service that quickly hosts a jupyter GitHub repo so you can interact with it in your browser.
+
+## [MITRE ATT&CKcon 2018: Agile Continuous Improvement Using ATT&CK](https://www.youtube.com/watch?v=Bgg6kZBzyhc&list=PLkTApXQou_8JrhtrFDfAskvMqk97Yu2S2&index=6)
+
+Matthew Stiak, Delta Dental and Jason Sinchak, Level Nine Group
+
+
