@@ -1,3 +1,13 @@
+---
+published: true
+layout: post
+category: blog
+current-tab: blog
+author: Erik Schwartz
+date: '2019-07-26'
+permalink: 2019-07-26-mitre-attacking-the-status-quo
+---
+
 ## Summary of "(2018) ATT&CKing the Status Quo: Improving Threat Intel and Cyber Defense with MITRE ATT&CK"
 
 Katie Nickels & John Wunder
