@@ -1,3 +1,12 @@
+---
+published: true
+layout: post
+category: blog
+current-tab: blog
+author: Erik Schwartz
+date: '2019-07-26'
+permalink: 2019-07-26-trajedy-of-systemd
+---
 https://www.youtube.com/watch?v=o_AIw9bGogo
 
 ## Summary
@@ -62,4 +71,3 @@ https://www.youtube.com/watch?v=o_AIw9bGogo
 - Questions
 	- Q: Are containers DLL hell?
     	A: DLL hell is 5 diff libraries and your app chooses wrong one
-    	
