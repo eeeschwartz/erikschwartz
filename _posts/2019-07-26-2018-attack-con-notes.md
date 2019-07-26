@@ -37,9 +37,3 @@ By John Lambert, Microsoft
 - [Jupyter notebooks](https://jupyter.org/) hyper popular datascience toolset in python. Great way to share infosec analysis. E.g. visualize netblocks that a machine connects to.
 - [Papermill](https://github.com/nteract/papermill) parameterize and run jupyter notebooks in automated fashion 
 - [Binder](https://mybinder.org/) platform as a service that quickly hosts a jupyter GitHub repo so you can interact with it in your browser.
-
-## [MITRE ATT&CKcon 2018: Agile Continuous Improvement Using ATT&CK](https://www.youtube.com/watch?v=Bgg6kZBzyhc&list=PLkTApXQou_8JrhtrFDfAskvMqk97Yu2S2&index=6)
-
-Matthew Stiak, Delta Dental and Jason Sinchak, Level Nine Group
-
-
