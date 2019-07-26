@@ -14,7 +14,7 @@ By John Lambert, Microsoft
 
 [Traditional versus advanced defense concepts](https://youtu.be/yslLIqfOKCU?list=PLkTApXQou_8JrhtrFDfAskvMqk97Yu2S2&t=246)
 
-![Conventional Wisdom in Defense]({{site.baseurl}}/_posts/Screen%20Shot%202019-07-26%20at%2010.51.26%20AM.png)
+![Conventional Wisdom in Defense]({{site.baseurl}}/images/Screen Shot 2019-07-26 at 10.51.26 AM.png)
 
 ### Ideas
 
