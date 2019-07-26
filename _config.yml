@@ -5,3 +5,5 @@ permalink: /slug/
 paginate: 5
 exclude: [Gemfile, Gemfile.lock, Rakefile, config.rb]
 gems: [jekyll-paginate]
+prose:
+  media: 'images'
