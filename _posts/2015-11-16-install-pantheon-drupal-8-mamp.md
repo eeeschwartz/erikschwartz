@@ -5,6 +5,8 @@ category: blog
 author: Erik Schwartz
 date: "2015-11-16"
 permalink: "2015-11-16-install-pantheon-drupal-8-mamp"
+hidden: true
+published: false
 ---
 
 Stream of consciousness setup of:

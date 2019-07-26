@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/eeeschwartz
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://erikschwartz.net
+  * I am eeeschwartz (https://keybase.io/eeeschwartz) on keybase.
+  * I have a public key ASClCxNQlHFNrC8Z4cSRFgaTDZbVseVvz_kGd2oKciivuAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120a50b135094714dac2f19e1c4911606930d96d5b1e56fcff906776a0a7228afb80a",
+      "host": "keybase.io",
+      "kid": "0120a50b135094714dac2f19e1c4911606930d96d5b1e56fcff906776a0a7228afb80a",
+      "uid": "d4c1c8465019c0de326314a65c6c3200",
+      "username": "eeeschwartz"
+    },
+    "merkle_root": {
+      "ctime": 1556308662,
+      "hash": "c26634e4da05fb31ff8644c3c668435dc0f80079043d7733b286721898586ef9a8066dd77d13d116e7325cf8e2f7b2d130011ee5991e2d90420ce0cc396cb38e",
+      "hash_meta": "b38c89241884bcc1ff8ddd843adee5213254c48363decca9586cbd6a37b813df",
+      "seqno": 5248344
+    },
+    "service": {
+      "entropy": "Y5JUD2oljJ8gYioYiw3HBZhk",
+      "hostname": "erikschwartz.net",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.2.2"
+  },
+  "ctime": 1556308692,
+  "expire_in": 504576000,
+  "prev": "c865fe17fd7458e30be461dc4db2db476010147d652c7d63957c80ab4ba4e289",
+  "seqno": 24,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgpQsTUJRxTawvGeHEkRYGkw2W1bHlb8/5BndqCnIor7gKp3BheWxvYWTESpcCGMQgyGX+F/10WOML5GHcTbLbR2AQFH1lLH1jlXyAq0uk4onEIMM81yZl7d4fpmt9j59YDjO7zFKEoq2n3hXRqE5Xqnq0AgHCo3NpZ8RAJ38ixjB58GvEaMWJNdEJpHwHq5oEhC+XadKDQGAYo3t6+MD2uDvmJ33gKhWxc07agFowEtV9OwLNhLVMzliwA6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEII/1VMOXCq9ULVIknoPET6YUJkq/pcEM7Mr7G1B4BTZeo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/eeeschwartz
+
+==================================================================
