@@ -4,8 +4,8 @@ layout: post
 category: blog
 current-tab: blog
 author: Erik Schwartz
-date: '2019-07-26'
-permalink: 2019-07-26-trajedy-of-systemd
+date: '2019-07-25'
+permalink: 2019-07-25-trajedy-of-systemd
 ---
 [Trajedy of systemd talk](https://www.youtube.com/watch?v=o_AIw9bGogo)
 
