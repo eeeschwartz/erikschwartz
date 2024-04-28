@@ -1,4 +1,14 @@
-Privacy Policy for Kroger Cart Helper
+---
+published: true
+layout: post
+category: blog
+current-tab: blog
+author: Erik Schwartz
+date: '2024-04-24'
+permalink: 2024-04-26-kroger-cart-helper-privacy-policy
+---
+
+# Privacy Policy for Kroger Cart Helper
 
 Effective Date: April 27, 2024
 
@@ -32,4 +42,3 @@ We may update this Privacy Policy from time to time. We will notify you of any c
 
 9. Consent
 By using the Kroger Cart Helper, you consent to the collection, use, and sharing of your information as described in this Privacy Policy.
-
